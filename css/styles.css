@@ -62,6 +62,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--seconadary-text-color);
+  text-decoration: none;
 }
 
 .auth-nav .link:hover,
@@ -77,6 +78,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .filter-button:hover,
@@ -122,10 +124,8 @@ button {
 
 .footer .address {
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.7;
-
   letter-spacing: 0.03em;
 }
 
@@ -133,6 +133,7 @@ button {
   text-decoration: none;
   font-family: Roboto;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -140,4 +141,65 @@ button {
 .footer .link:hover,
 .footer .link:focus {
   color: var(--blue-text);
+}
+
+/* index */
+/* hero */
+
+/* button hero */
+
+.button-hero {
+  color: #ffffff;
+  background-color: var(--blue-text);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+.title-hero {
+  color: #ffffff;
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+/* Особенности */
+
+.features h3,
+h2 {
+  color: var(--primary-text-color)
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.features p {
+  color: var(--seconadary-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-title {
+color: var(--primary-text-color);
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17 ;
+text-align: center;
+}
+
+.our-team h3 {
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.our-team p {
+  color: var(--seconadary-text-color);
+font-size: 16px;
+line-height: 1.19;
 }
